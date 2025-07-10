@@ -40,6 +40,7 @@ module "Ec2_Instance" {
   }
 
 }
+#Karthik Korukonda
 module "s3_bucket" {
   source                   = "terraform-aws-modules/s3-bucket/aws"
   version                  = "4.11.0"
