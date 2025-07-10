@@ -1,0 +1,15 @@
+# Terraform-related
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform/providers
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Optional: ignore lock file if you regenerate often
+.terraform.lock.hcl
