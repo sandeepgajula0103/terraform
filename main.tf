@@ -9,6 +9,7 @@ terraform {
 provider "aws" {
   region = "us-west-2"
 
+
 }
 variable "key_name" {
 }
@@ -40,7 +41,7 @@ module "Ec2_Instance" {
   }
 
 }
-#Karthik Korukonda
+#Karthik Korukonda12345
 module "s3_bucket" {
   source                   = "terraform-aws-modules/s3-bucket/aws"
   version                  = "4.11.0"
