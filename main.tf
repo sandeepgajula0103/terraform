@@ -21,6 +21,7 @@ resource "aws_key_pair" "generated_key" {
   public_key = tls_private_key.example.public_key_openssh
 
 }
+#abede
 
 module "Ec2_Instance" {
   source                 = "terraform-aws-modules/ec2-instance/aws"
